@@ -36,7 +36,7 @@ h2 {
   z-index: -1;
   transform: rotate(-90deg);
   margin-top: -450px;
-  margin-right: 760px;
+  margin-right: 790px;
   color: yellow;
   font-family: 'Russo One', sans-serif;
   text-shadow: 20px 10px whitesmoke;
@@ -87,7 +87,7 @@ text-shadow: 2px 3px black;
     font-family: sans-serif;
     width: 100px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-left: 150px;
+    margin-left: 180px;
 }
 .styled-table thead tr {
     background-color: yellow;
