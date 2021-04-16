@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://picsum.photos/1300);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#first{
+    width: 50%;
+    height:96%;
+    margin:auto;
+    margin-top: 10px;
+    padding: 68px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    z-index: 5;
+}
+#two{
+z-index: 4;
+}
+#header{
+    z-index: 3;
+}
+
+.one{
+    font-size: 40px;
+}
+#header a{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px yellow;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+#header a:hover{
+    color:yellow;
+    text-shadow: 2px 3px black;
+}
+#header li{
+    z-index: 5;
+  list-style: none;
+  float: left;
+  padding: 20px;
+}
+.para{
+    z-index: 3;
+    font-size: 18px;
+}
+#first p{
+    z-index: 2;
+    float: left;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1.5px 1.5px white;
+}
+#three{
+    z-index: -5;
+    font-size: 150px;
+    transform: rotate(-90deg);
+    margin-right: -500px;
+    color: yellow;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 20px 10px whitesmoke;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* width: 100vw;
+  height: 100vh; */
+  background-image: url(https://picsum.photos/1300);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h2 {
+  padding: 30px;
+  font-family: 'Fredoka One', cursive;
+  color:#000;
+  text-shadow: 1px 3px rgb(255, 255, 255) ;
+}
+.first{
+    width: 50%;
+    margin:auto;
+    margin-top: 10px;
+    padding: 66px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    z-index: 1;
+}
+#three{
+  font-size: 170px;
+  z-index: -1;
+  transform: rotate(-90deg);
+  margin-top: -350px;
+  margin-right: 810px;
+  color: yellow;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 20px 10px whitesmoke;
+}
+#four{
+  font-size: 170px;
+  z-index: -1;
+  transform: rotate(90deg);
+  margin-top: -280px;
+  margin-left: 810px;
+  color: yellow;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 20px 10px whitesmoke;
+}
+img{
+    margin-top: 15px;
+    width: 50px;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #000); */
+ /* filter: drop-shadow(5px 5px 5px #000); */
+  }
+ img:hover{
+  filter: drop-shadow(4px 4px 4px #fff);
+
+ }
+#header {
+    width: 100%;
+}
+#header a{
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px yellow;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+    font-weight: 800;
+    padding-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+#header a:hover{
+color:yellow;
+text-shadow: 2px 3px black;
+}
+#header li:active{
+    color: red;
+}
+#header li{
+  list-style: none;
+  float: left;
+  padding: 20px;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px ;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: -68px;
+}
+.styled-table thead tr {
+    background-color: yellow;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    font-weight: bold;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid yellow;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: yellow;
+}
