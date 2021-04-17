@@ -55,6 +55,10 @@ z-index: 4;
     color:yellow;
     text-shadow: 2px 3px black;
 }
+#header :active{
+    color:yellow;
+    text-shadow: 2px 3px black;
+}
 #header li{
     z-index: 5;
   list-style: none;
@@ -79,4 +83,13 @@ z-index: 4;
     color: yellow;
     font-family: 'Russo One', sans-serif;
     text-shadow: 20px 10px whitesmoke;
+}
+.media{
+    width: 50px;
+    padding: 10px;
+/* margin-top: -200px; */
+}
+.media:hover{
+    filter: drop-shadow(-4px -4px 4px #fff);
+    transform:translate3d(0px,10px,0px);
 }

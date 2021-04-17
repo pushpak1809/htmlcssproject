@@ -72,6 +72,10 @@ text-shadow: 2px 3px black;
 #header li:active{
     color: red;
 }
+#header :active{
+  color:yellow;
+  text-shadow: 2px 3px black;
+}
 #header li{
   list-style: none;
   float: left;
